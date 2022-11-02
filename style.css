@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+h1 {
+  color: rgba(72, 22, 222, 0.833);
+}
+
+body {
+background-color: #D8E4FF;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: rgb(56, 26, 26);
+font-size: larger;
+line-height: normal;
+font-family: 'Roboto', sans-serif;
+font-weight: 300
+}
+
+h2, h3 {
+color: rgb(48, 37, 101);
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: larger;
+line-height: normal;
+}
+
+a {
+  color: rgb(23, 55, 84);
+  text-decoration: none;
+}
+
+a :hover{
+  text-decoration: underline;
+}
+
+.card{
+  background-color: #b1c0c7;
+  border-radius: 4px;
+  margin: 16px 16px;
+  padding: 15px;
+  text-align: center;
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+@media (max-width: 7960px) {
+  .container {
+    width: 700px;
+  }
+}
